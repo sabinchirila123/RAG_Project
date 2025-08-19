@@ -71,7 +71,7 @@ def recommend():
 
     prompt = f"""    
     Utilizatorul caută o carte. Pe baza interesului: „{query}”,
-    ai selectat cartea: **{title}**.
+    ai selectat cartea: {title}.
      
     Scrie o recomandare în stil conversațional, prietenos și în limba română,
     apoi adaugă și următorul rezumat detaliat al cărții:
